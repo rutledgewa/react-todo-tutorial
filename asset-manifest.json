@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-todo-tutorial/static/css/main.00192dfa.chunk.css",
+    "main.js": "/react-todo-tutorial/static/js/main.145d36a8.chunk.js",
+    "main.js.map": "/react-todo-tutorial/static/js/main.145d36a8.chunk.js.map",
+    "runtime-main.js": "/react-todo-tutorial/static/js/runtime-main.70b1047c.js",
+    "runtime-main.js.map": "/react-todo-tutorial/static/js/runtime-main.70b1047c.js.map",
+    "static/js/2.e6fe0d11.chunk.js": "/react-todo-tutorial/static/js/2.e6fe0d11.chunk.js",
+    "static/js/2.e6fe0d11.chunk.js.map": "/react-todo-tutorial/static/js/2.e6fe0d11.chunk.js.map",
+    "static/js/3.ef9040ea.chunk.js": "/react-todo-tutorial/static/js/3.ef9040ea.chunk.js",
+    "static/js/3.ef9040ea.chunk.js.map": "/react-todo-tutorial/static/js/3.ef9040ea.chunk.js.map",
+    "index.html": "/react-todo-tutorial/index.html",
+    "static/css/main.00192dfa.chunk.css.map": "/react-todo-tutorial/static/css/main.00192dfa.chunk.css.map",
+    "static/js/2.e6fe0d11.chunk.js.LICENSE.txt": "/react-todo-tutorial/static/js/2.e6fe0d11.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70b1047c.js",
+    "static/js/2.e6fe0d11.chunk.js",
+    "static/css/main.00192dfa.chunk.css",
+    "static/js/main.145d36a8.chunk.js"
+  ]
+}
