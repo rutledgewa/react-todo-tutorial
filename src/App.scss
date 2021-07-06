@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  $btnColor: #ff6f47;
+
+  @mixin flexCenter() {
+    display: flex;
+    align-items: center;
+  }
+
+  body {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+  }
+  header {
+    font-size: 2rem;
+  }
+  
+  header,
+  form {
+    min-height: 20vh;
+    @include flexCenter();
+    justify-content: center;
+  }
+
+  form {
+    input, button {
+      padding: 0.5rem;
+      font-size: 2rem;
+      border: none;
+      background: white;
+    }
+    button {
+      color: $btnColor;
+      background: #f7fffe;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    button:hover{
+      background: $btnColor;
+      color: white;
+    }
+  }
+
+  .todo {
+    margin: 0.5rem;
+    background: white;
+    font-size: 1.5rem;
+    color: black;
+    @include flexCenter();
+    justify-content: space-between;
+    transition: all 1s ease;
+
+    &-container {
+      @include flexCenter();
+      justify-content: center;
+    }
+
+    &-list {
+      min-width: 30%;
+      list-style: none;
+    }
+
+    &-item {
+      padding: 0rem 0.5rem;
+    }
+
+    li {
+      flex: 1;
+    }
+  }
+
+  .filter-todo {
+    padding: 1rem;
+  }
+
+  .trash-btn,
+  .complete-btn {
+    background: $btnColor;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .complete-btn {
+    background: rgb(11, 212, 162);
+  }
+
+
+  .fa-trash,
+  .fa-check {
+    pointer-events: none;
+  }
+  
+  .fall {
+    transform: translateY(10rem) rotateZ(20deg);
+    opacity: 0;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+  
+  /*CUSTOM SELECTOR */
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-image: none;
+    color: $btnColor;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    width: 12rem;
+  }
+  
+  /* Custom Select */
+  .select {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+  /* Arrow */
+  .select::after {
+    content: "\25BC";
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background: $btnColor;
+    cursor: pointer;
+    pointer-events: none;
+  }
+  /* Transition */
+  /*
+  .select:hover::after {
+    transform: scale(1.5);
+  }
+  */
+  
